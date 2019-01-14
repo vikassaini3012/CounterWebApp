@@ -31,7 +31,7 @@ Calculator myCalc = new Calculator();
 	
 	@Test	
       public void testCalc() {
-	System.setProperty("webdriver.gecko.driver","/home/devops/Downloads/geckodriver");
+	System.setProperty("webdriver.gecko.driver","/home/ub/Downloads/geckodriver");
 	driver = new FirefoxDriver();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
       driver.get("http://www.google.com");
